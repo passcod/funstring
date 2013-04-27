@@ -1,0 +1,24 @@
+{
+  "name": "funstring",
+  "description": "Convert functions into strings",
+  "version": "0.1.0",
+  "author": "Félix Saparelli <me@passcod.name>",
+  "main": "./funstring",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/passcod/funstring.git"
+  },
+  "keywords": [
+    "function",
+    "string",
+    "serialize"
+  ],
+  "devDependencies": {
+    "jshint": "1.x.x",
+    "mocha": "1.9.x"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --reporter spec",
+    "lint": "./node_modules/.bin/jshint --config=./jshint.json funstring.js test"
+  }
+}
